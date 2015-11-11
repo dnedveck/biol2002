@@ -25,7 +25,7 @@ what we needed to do there is modify the PBS script to have a runtime longer tha
 
 After running the script we needed to `scp` it to our home computer to be able to see the html plots that were generated. Note the `-r` used to get the entire directory. Also, for the target, you can just use `.`, which essesntially means "copy the stuff to the directory that I am currently in."
 
-		scp -r [source] [target]
+	scp -r [source] [target]
 
 Once the folder is copied, open up the `alpha_rarefaction_plots` folder, and open the `rarefaction_plots.html`.
 
@@ -40,11 +40,11 @@ I couldn't figure out how to count the number of samples that we lost easily, so
 
 Since the summarize taxa plots don't take that long to run, we're just going to run it interactively. To do interactive work, you need to ssh into login, and then do an isub into lab:
 
-		ssh yourx500@login.msi.umn.edu
+	ssh yourx500@login.msi.umn.edu
 
-		[.... once you log into login .... ]
+	[.... once you log into login .... ]
 
-		isub -m 4Gb
+	isub -m 4Gb
 
 This gives you an interactive session on lab, with 4Gb of RAM. Nice. 
 
@@ -52,21 +52,21 @@ To actually run our commands, we are going to put them inside bash scripts, and 
 
 So, starting from your home directory `~`:
 
-		# make a directory
-		mkdir summarize_taxa
+	# make a directory
+	mkdir summarize_taxa
 
-		# cd into it, and make a script file
-		cd summarize_taxa
-		touch sumtaxa.sh
+	# cd into it, and make a script file
+	cd summarize_taxa
+	touch sumtaxa.sh
 
-		# modify the permissions so that you can execute it
-		chmod u+x sumtaxa.sh
+	# modify the permissions so that you can execute it
+	chmod u+x sumtaxa.sh
 
 Now use nano to edit it. Once inside, add this content
 
-		#! /bin/bash
+	#! /bin/bash
 
-		echo "this is a test script"
+	echo "this is a test script"
 
 Save and exit. Now back in your terminal, you should be able to run it by typing `./sumtaxa.sh` and it should spit out "this is a test script" to your screen.
 
