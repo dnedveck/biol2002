@@ -10,8 +10,8 @@ title: Derek's Biol2002 site
 email: dnedveck@umn.edu
 description: > # this means to ignore newlines until "baseurl:"
   Blog posts from the lab, along with pages of resources -- nice.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dnedveck.github.io/biol2002" # the base hostname & protocol for your site
+baseurl: "biol2002" # the subpath of your site, e.g. /blog
+url: "http://dnedveck.github.io/" # the base hostname & protocol for your site
 twitter_username: dnedveck
 github_username:  dnedveck
 
