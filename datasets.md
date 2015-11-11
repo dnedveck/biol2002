@@ -13,6 +13,7 @@ I think they are all 16S data, so you will only be able to answer questions base
 ### AMP -- Rural African Human Gut Microbiota
 
 Different categories are:
+
 - sex
 - age
 - BMI
