@@ -1,0 +1,83 @@
+---
+layout: post
+title: "Lab 11/09 -- Alpha Rarefaction and more"
+date: 2015-11-09
+categories: otu-picking alpha-rarefaction
+---
+
+
+### What did we do
+
+- finished alpha rarefaction assignment (including the single rarefaction)
+- looked at the datasets that we have for the projects
+- started working on the summarize taxa plots in QIIME
+
+##  Lab Notes
+
+The lecture slides [can be found here](https://docs.google.com/a/umn.edu/presentation/d/1CN1beRxNtrYe7JSFeB9cOFLppdKGDSPc1fsHDUtzak0/edit?usp=sharing) -- you need to be logged into your UMN account to view them. They are provided as is -- don't make fun of me.
+
+
+### alpha rarefaction
+
+Started out the lab by running the alpha rarefaction scripts that we started last Wednesday (11/4).
+
+what we needed to do there is modify the PBS script to have a runtime longer than one hour (I used 5 hours).
+
+After running the script we needed to `scp` it to our home computer to be able to see the html plots that were generated. Note the `-r` used to get the entire directory. Also, for the target, you can just use `.`, which essesntially means "copy the stuff to the directory that I am currently in."
+
+		scp -r [source] [target]
+
+Once the folder is copied, open up the `alpha_rarefaction_plots` folder, and open the `rarefaction_plots.html`.
+
+Look at the different measures of diversity (observed species, chao1, whole tree phyologenetic diversity). 
+
+
+Moving forward, we need to pick on a certain number of reads to standardize all of our samples to. We can use this alpha rarefaction plot to decide on the number of reads to use from each sample. In class we ended up picking somewhere around 6-8K samples, as that seemed to get us as close as possible to estimating the diversity of some of the samples, while still keeping some others around.
+
+I couldn't figure out how to count the number of samples that we lost easily, so we just moved on. 
+
+### Summarize Taxa
+
+Since the summarize taxa plots don't take that long to run, we're just going to run it interactively. To do interactive work, you need to ssh into login, and then do an isub into lab:
+
+		ssh yourx500@login.msi.umn.edu
+
+		[.... once you log into login .... ]
+
+		isub -m 4Gb
+
+This gives you an interactive session on lab, with 4Gb of RAM. Nice. 
+
+To actually run our commands, we are going to put them inside bash scripts, and run those. This is going to make our work more reproducible. 
+
+So, starting from your home directory `~`:
+
+		# make a directory
+		mkdir summarize_taxa
+
+		# cd into it, and make a script file
+		cd summarize_taxa
+		touch sumtaxa.sh
+
+		# modify the permissions so that you can execute it
+		chmod u+x sumtaxa.sh
+
+Now use nano to edit it. Once inside, add this content
+
+		#! /bin/bash
+
+		echo "this is a test script"
+
+Save and exit. Now back in your terminal, you should be able to run it by typing `./sumtaxa.sh` and it should spit out "this is a test script" to your screen.
+
+Once that works, then you can put in a command for [summarize taxa through plots (click on this, it's a link to the help file)](http://qiime.org/scripts/summarize_taxa_through_plots.html). What you're going to do is replace the `echo` part of the bash script with a line of your summarize taxa. Look at the slides (slide 34) for a guide on how to make the command.
+
+Make sure you run that on lab, and that you did a `module load qiime/1.7.0` before running the script. 
+
+Once that is done, scp the output folder back to your home computer, and then take a look at the html file and look at the graphs. Neat. 
+
+![Neat](http://i.imgur.com/iYOXpB3.gif)
+
+
+
+
