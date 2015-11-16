@@ -8,7 +8,28 @@ There's going to be more information on the datasets eventually ...
 
 These datasets can be found in `???/shared/???`
 
-I think they are all 16S data, so you will only be able to answer questions based on measures of species diversity. 
+They are all 16S data, so you will only be able to answer questions based on measures of species diversity. 
+
+### JMMP -- Japanese Macaque gut microbiota
+
+- Season
+- anthelmintic treatment
+- age
+- rank
+- weight
+
+
+### Forensic -- skin and keyboard microbiome
+
+uhh ... matching fingertip microbiome to swabs from a keyboard?
+
+### Cancer
+
+- bacteria directly adjacent to the tumor and then a sample from the healthy spot in the same individual
+- all 16S data
+
+-------------------------------------------
+
 
 ### AMP -- Rural African Human Gut Microbiota
 
@@ -21,16 +42,6 @@ Different categories are:
 - diet
 - ancestry
 - parasitism level
-
-
-### JMMP -- Japanese Macaque gut microbiota
-
-- Season
-- anthelmintic treatment
-- age
-- rank
-- weight
-
 
 ### UGHP -- gut microbiota from HIV infected individuals
 
@@ -47,10 +58,3 @@ Different categories are:
 - sex
 - family
 
-### Forensic -- skin and keyboard microbiome
-
-uhh ... matching fingertip microbiome to swabs from a keyboard?
-
-### Cancer
-
-we got data on something to do with colon cancer. Maybe it's whole genome data?
