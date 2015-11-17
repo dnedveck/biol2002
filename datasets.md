@@ -18,15 +18,36 @@ They are all 16S data, so you will only be able to answer questions based on mea
 - rank
 - weight
 
+Here's the variables in the mapping file:
+
+	 [1] "#SampleID"       "Collection_Date" "Year"            "Season"         
+	 [5] "Individual"      "Weight"          "Treatment"       "Period"         
+	 [9] "Matriline"       "DomRank"         "DomClass3"       "DomClass2"      
+	[13] "Age"             "lbm"             "hbm"             "abm"            
+	[17] "treated_start"   "drug"            "reproductive"    "repr_state"     
+	[21] "oes"             "strep"           "strong"          "trich"  
+
 
 ### Forensic -- skin and keyboard microbiome
 
-uhh ... matching fingertip microbiome to swabs from a keyboard?
+Here's the variables in the mapping file:
+
+	[1] "#SampleID"             "BarcodeSequence"       "LinkerPrimerSequence" 
+	[4] "COLLECTION_DATE"       "COMMON_NAME"           "Description_duplicate"
+	[7] "host_subject_id"       "side_of_body"          "Description"
 
 ### Cancer
 
 - bacteria directly adjacent to the tumor and then a sample from the healthy spot in the same individual
 - all 16S data
+
+Here's the variables in the mapping file: 
+
+	 [1] "#SampleID"            "BarcodeSequence"      "LinkerPrimerSequence"
+	 [4] "Description"          "Patient_Blind_ID"     "Age"                 
+	 [7] "Sex"                  "Ethnicity"            "Site"                
+	[10] "MSI_status"           "Stage"                "Height_cm"           
+	[13] "Weight_kg"            "BMI" 
 
 -------------------------------------------
 
