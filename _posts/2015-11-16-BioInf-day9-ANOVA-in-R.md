@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lab 11/16, finishing Taxa sum"
+title: "Lab 11/16, finishing Taxa sum, For Loop"
 date: 2015-11-16
 categories:
 ---
