@@ -17,4 +17,4 @@ github_username:  dnedveck
 
 # Build settings
 markdown: kramdown
-include: [staticdocs, assests]
+include: [staticdocs, assets]
