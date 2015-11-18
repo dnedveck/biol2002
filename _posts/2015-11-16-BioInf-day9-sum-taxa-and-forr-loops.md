@@ -48,4 +48,6 @@ if you get something like `Error: figure margins too large` it means that your p
 
 We started on the For loop assignment, and that is due by the beginning of class time on Wed (11/18)
 
-**I made a walkthrough of the For Loop assignment** [You can access it here]({{ site.url }}/assets/2015-11-18-forloop.html)
+**I made a walkthrough of the For Loop assignment** [here's a link to a google drive doc](https://drive.google.com/file/d/0Bxn_LX4s5eomenlUdlphVVl2NlU/view?usp=sharing)
+
+
