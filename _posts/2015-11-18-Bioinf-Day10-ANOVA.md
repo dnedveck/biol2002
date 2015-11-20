@@ -11,3 +11,5 @@ categories:
 ## Anova Assignment
 
 [Here's my document.](https://drive.google.com/file/d/0Bxn_LX4s5eomYk1pSlZSNVJvWnc/view?usp=sharing) I'll be editing it and uploading a new version when I finish it.
+
+[test link]({{ site.baseurl }}/assets/ANOVAassignment.html)

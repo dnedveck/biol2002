@@ -50,4 +50,6 @@ We started on the For loop assignment, and that is due by the beginning of class
 
 **I made a walkthrough of the For Loop assignment** [here's a link to a google drive doc](https://drive.google.com/file/d/0Bxn_LX4s5eomenlUdlphVVl2NlU/view?usp=sharing)
 
+[test link]({{ site.baseurl }}/assets/forloop.html)
+
 
