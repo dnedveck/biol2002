@@ -39,6 +39,8 @@ Then open it up in nano and make it have the following contents
 then log into lab, and run it. 
 
 
+![whew]({{ site.baseurl }}/images/JayZWhew.gif)
+
 ## Alpha diveristy
 
 Due by the time I start grading it (sometime Monday 11/30) -- your choice if you work on it over break, or finish it by Wednesday.
