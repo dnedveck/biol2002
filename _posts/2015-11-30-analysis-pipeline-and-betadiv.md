@@ -19,3 +19,4 @@ categories:
 - then you're going to go and start working on it
 
 ![hardship]({{ site.baseurl}}/images/hardshipOwl.gif)
+
