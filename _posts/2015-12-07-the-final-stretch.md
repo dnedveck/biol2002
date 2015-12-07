@@ -12,11 +12,12 @@ We have the following assingments due:
 
 ### Done as groups, due this Friday (12/11):
 
-- Summaries of Tutorials
+- Summaries of Tutorials (15 points -- dropbox to appear in Moodle soon)
   - [QIIME Pipeline Tutorials]({{ site.baseurl }}/assets/QIIMEpipeline_16Sanalysis.docx)
   - [R Tutorial Summaries]({{ site.baseurl }}/assets/Tutorial_summaries.docx)
   - these will help writing your analysis Pipeline
-- Analysis Pipeline
+  - you should have summaries for: OTU picking in QIIME, alpha rarefaction in QIIME, single rarefaction, alpha diversity in QIIME, beta diversity in QIIME, taxa summaries, identifying significant taxa using ANOVA, significance tests of beta diversity, PCoA, and significance testing of alpha diversity.
+- Analysis Pipeline (15 points -- dropbox to appear in Moodle soon)
   - how you are going to take your data and get to an answer to you question
   - be descriptive and use detail -- what metrics are yout going to use, and what analyses?
   - this will set you up to write your method section
