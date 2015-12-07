@@ -29,12 +29,12 @@ We have the following assingments due:
 
 Done by yourself: 
 
-#### Annotated Bibliography (Due 12/11)
+- Annotated Bibliography (Due 12/11)
 
- - instructions on Moodle 
+  - instructions on Moodle 
 
-####  Final Research proposal (Due 12/16 at lab)
+-  Final Research proposal (Due 12/16 at lab)
 
- - **TURN IN A PAPER COPY** ... thanks
- - also upload to Moodle
- - check out the rubric on Moodle
+  - **TURN IN A PAPER COPY** ... thanks
+  - also upload to Moodle
+  - check out the rubric on Moodle
