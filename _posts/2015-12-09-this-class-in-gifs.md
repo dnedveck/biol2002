@@ -11,7 +11,9 @@ categories:
 
 *My perpetual state of confusion*
 
+
 -------
+
 
 ![]({{ site.baseurl }}/images/what.gif)
 
@@ -20,6 +22,7 @@ categories:
 
 -------
 
+
 ![]({{ site.baseurl }}/images/patrick-and-man-ray-o.gif)
 
 
@@ -27,12 +30,14 @@ categories:
 
 -------
 
+
 ![]({{ site.baseurl }}/images/clefairy.gif)
 
 
 *no idea what is going on…ugh….wow it worked!…no idea what is going on*
 
 -------
+
 
 ![]({{ site.baseurl }}/images/ron-swanson-computer.gif)
 
@@ -48,6 +53,7 @@ categories:
 
 -------
 
+
 ![]({{ site.baseurl }}/images/mouthBurn.gif)
 
 
@@ -56,12 +62,14 @@ categories:
 
 -------
 
+
 ![]({{ site.baseurl }}/images/imamac.gif)
 
 
 *The idea of one operating system being superior to another is always intriguing. I occasionally hear that Apple is better, but I am doing just fine on a PC, even with commands and R and all.*
 
 -------
+
 
 
 ![]({{ site.baseurl }}/images/pillowsanta.gif)
