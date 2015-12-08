@@ -29,6 +29,6 @@ We have the following assingments due:
 - Annotated Bibliography (Due 12/11)
   - instructions on Moodle 
 - Final Research proposal (Due 12/16 at lab)
-  - ~~**TURN IN A PAPER COPY** ... thanks~~ Nevermind, I'll print them myself
+  - you don't need to turn in a paper copy, I'll print them myself
   - upload to Moodle
   - check out the rubric on Moodle
