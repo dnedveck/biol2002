@@ -77,5 +77,12 @@ categories:
 
 *Bioinformatics is like Santa in this gif. Santa throws the person (me) the pillow (like the tools bioinformatics threw at us) and expects us to be ready to fight back.*
 
+-------
 
+
+
+![]({{ site.baseurl }}/images/monkeyComputer.gif)
+
+
+*There are so many new things to absorb in this course and I feel like that monkey in the gif when I sit in front of computer or laptops to do the assignments.*
 
