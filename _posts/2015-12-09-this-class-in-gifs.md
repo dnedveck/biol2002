@@ -5,6 +5,16 @@ date: 2015-12-09
 categories: 
 ---
 
+## The TA
+
+![]({{ site.baseurl }}/images/duckHelp.gif)
+
+
+*Here's how to run this script, and now go and do the next assignment*
+
+
+## The Class
+
 
 ![]({{ site.baseurl }}/images/perpetualConfusion.gif)
 
@@ -86,3 +96,18 @@ categories:
 
 *There are so many new things to absorb in this course and I feel like that monkey in the gif when I sit in front of computer or laptops to do the assignments.*
 
+
+---------
+
+![]({{ site.baseurl }}/images/sevenLines.gif)
+
+
+*"Yeah, it's like seven lines"*
+
+
+---------
+
+![]({{ site.baseurl }}/images/trapped.gif)
+
+
+*As I cruise along through the intro of my coding assignment I get trapped in an error! So close!*
